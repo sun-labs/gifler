@@ -394,3 +394,5 @@ if (typeof window !== "undefined" && window !== null) {
 if (typeof module !== "undefined" && module !== null) {
   module.exports = gifler;
 }
+
+export default gifler;
