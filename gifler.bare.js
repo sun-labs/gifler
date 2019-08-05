@@ -387,12 +387,4 @@ gifler.Decoder = Decoder;
 
 gifler.Animator = Animator;
 
-if (typeof window !== "undefined" && window !== null) {
-  window.gifler = gifler;
-}
-
-if (typeof module !== "undefined" && module !== null) {
-  module.exports = gifler;
-}
-
 export default gifler;
